@@ -22,10 +22,16 @@
   },
   "author": "Volodymyr Rusynov <vrusynov@gmail.com>",
   "workspaces": [
-    "./workspaces/builder",
-    "./workspaces/e2e",
-    "./workspaces/server",
-    "./workspaces/web"
+    "./workspaces/apps/desktop",
+    "./workspaces/apps/mobile",
+    "./workspaces/apps/server",
+    "./workspaces/apps/web",
+    "./workspaces/e2e/containers",
+    "./workspaces/e2e/database",
+    "./workspaces/e2e/desktop",
+    "./workspaces/e2e/mobile",
+    "./workspaces/e2e/server",
+    "./workspaces/e2e/web"
   ],
   "license": "ISC",
   "devDependencies": {
