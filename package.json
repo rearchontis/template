@@ -1,7 +1,7 @@
 {
   "name": "spreadsheet",
   "version": "1.0.0",
-  "description": "Spreadsheet Web App",
+  "description": "Template repository for projects bootstrap",
   "engines": {
     "npm": "^7.0.0"
   },
