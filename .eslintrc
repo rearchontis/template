@@ -17,5 +17,11 @@
   "rules": {
     "prettier/prettier": 2,
     "no-console": 2
-  }
+  },
+  "overrides": [
+    {
+      "files": ["./workspaces/client/**/*.ts", "./workspaces/client/**/*.tsx"],
+      "extends": ["next", "next/core-web-vitals"]
+    }
+  ]
 }
